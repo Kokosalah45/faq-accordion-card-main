@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--ff-primary);
+    background: var(--clr-background-body-gradient);
+    font-size: var(--fs-primary-410);
+    padding: 2em;
+    
+}

@@ -1,0 +1,49 @@
+.main{
+    
+    &__faq{ 
+       
+    &__heading{
+        font-size: var(--fs-primary-550);
+        text-transform: uppercase;
+        font-weight: var(--fw-primary-semiBold );
+        color : var(--clr-primary-text);
+        
+    }
+    
+    &__qa__item
+    {
+        color : var(--clr-dark-grayish-blue);
+        &__question{
+            transition: all 0.2s ease;
+        }
+        &__answer{
+            font-size: var(--fs-primary-400);
+            line-height: 1.5;
+        }
+    }
+    
+}
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        font-size: var(--fs-primary-390);
+    }
+    .main{
+    
+        &__faq{ 
+            &__heading{
+                text-align: center;
+                font-size: var(--fs-primary-550);
+            }
+      
+        
+        &__qa__item__answer{
+            font-size: var(--fs-primary-380);
+            max-width: 40ch;
+        }
+        
+    }
+    }
+
+}

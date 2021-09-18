@@ -1,0 +1,2 @@
+"use strict";var faq=document.querySelector(".main__faq");faq.addEventListener("click",(function(e){if(e.target.classList.contains("main__faq__qa__item__question__dropdown")){var t=e.target,a=e.target.previousElementSibling;console.log(a);var s=t.parentNode.nextElementSibling;s.classList.contains("answer-active")?(t.classList.remove("rotate-dropdown"),s.classList.remove("answer-active"),a.classList.remove("question-active")):(t.classList.add("rotate-dropdown"),s.classList.add("answer-active"),a.classList.add("question-active"))}}));
+//# sourceMappingURL=script.js.map
